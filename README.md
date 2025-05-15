@@ -6,7 +6,7 @@ No partner
 
 **GitHub Repository:**  
 [https://github.com/USERNAME/Lab7_LisaFritsche](https://github.com/USERNAME/Lab7_LisaFritsche)  
-*(← Replace USERNAME with your actual GitHub username)*
+
 
 ---
 
