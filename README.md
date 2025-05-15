@@ -47,10 +47,20 @@ A screenshot of the terminal output with all 9 tests passing is included in the 
 
 ---
 
+## Notes on Environment and Execution
+
+This lab was completed using a **corporate laptop**, where installing Node.js locally is restricted.  
+As a result, the tests were executed entirely through **GitHub Codespaces**, without relying on a local Node.js setup.  
+Despite this limitation, **all tests were successfully run and passed**, as shown in the attached test result screenshot.
+
+---
+
 ## Notes
 
 - All tests in `lab7.test.js` have been completed and passed.
 - Local server used with Puppeteer to test all interactions end-to-end.
+
+  
 
 
 
