@@ -28,16 +28,36 @@ End-to-end tests are used to test user workflows and UI interactions, not indivi
 
 ### 3) What is the difference between navigation and snapshot mode?  
 **Answer:**  
-- **Navigation Mode**: Runs Lighthouse when the page loads. It measures the load performance, interactivity, and other page metrics.  
-- **Snapshot Mode**: Analyzes the current page state at a single moment. It’s better for static analysis like accessibility or SEO, but doesn’t reflect runtime behavior or load performance.
+**Navigation mode** analyzes the performance of a page right after it fully loads.  
+It simulates how a user would experience the initial load of the website and measures metrics like First Contentful Paint, LCP, and TTI.
+
+**Snapshot mode** analyzes the current state of the DOM at the moment the test is run.  
+It is useful for static checks like accessibility and structure but does not reflect load performance or runtime behavior.
+
 
 ---
 
 ### 4) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.  
 **Answer:**  
-1. Optimize image sizes and formats to reduce load time.  
-2. Minimize JavaScript bundles and remove unused code.  
-3. Improve accessibility by adding ARIA labels and ensuring sufficient contrast for text elements.
+Even though the scores are very strong, here are three things that could improve the site further:
+
+1. **Improve Accessibility (currently 90)**  
+   → Add additional ARIA labels or roles to improve screen reader compatibility.
+
+2. **Enhance SEO (currently 91)**  
+   → Ensure all images have descriptive alt text and meta tags are optimized.
+
+3. **Optimize JavaScript usage**  
+   → Reduce or defer unused JS to improve interactivity for slower devices.
+
+---
+
+📸 Lighthouse Result Summary:
+- **Performance**: 98
+- **Accessibility**: 90
+- **Best Practices**: 96
+- **SEO**: 91
+(Screenshot saved separately)
 
 ---
 
